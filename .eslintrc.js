@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-console': 1,
+    'no-console': 0,
     'no-undef': 1,
     'no-unused-vars': 1,
     'no-restricted-syntax': 0,
@@ -25,5 +25,7 @@ module.exports = {
     'import/prefer-default-export': 1,
     'no-trailing-spaces': 1,
     'eol-last': 0,
+    indent: 0,
+
   },
 };

@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 
 // Set the debug state
-const DEBUG = true;
+const DEBUG = false;
 
 // The current cache version
 const CACHE_NAME = 'v4';

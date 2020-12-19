@@ -5,7 +5,7 @@
  * Service Worker
  */
 
-const DEBUG = true;
+const DEBUG = false;
 const OFFLINE_URL = "offline.html";
 const CACHE_NAME = 'v1.6';
 
@@ -23,7 +23,6 @@ self.addEventListener('install', (e) => {
             })
             .catch(er=>console.error(er)),
     )
-
 })
 
 self.addEventListener('activate', (e) => {
